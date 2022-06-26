@@ -27,7 +27,7 @@ body {
 
 /* ОБЩЕЕ */
 
-/*Сброс марджинов верх и низ у заголовков и абзацев*/
+/*Сброс марджинов верх и низ у заголовков, абзацев и списков*/
 p,
 h1,
 h2,
@@ -215,6 +215,7 @@ img {
 
 /* Герой */
 .hero {
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--footer-bg-color);
@@ -456,23 +457,6 @@ img {
   height: 20px;
 }
 
-/* .social-links > .item.instagram {
-  background-image: url(../images/social-links-instagram2.svg);
-}
-
-.social-links > .item.twitter {
-  background-image: url(../images/social-links-twitter2.svg);
-}
-
-.social-links > .item.facebook {
-  background-image: url(../images/social-links-facebook2.svg);
-}
-
-.social-links > .item.linkedin {
-  background-image: url(../images/social-links-linkedin2.svg);
-}
-*/
-
 /* Вместо этого - Техника отзывчивых изображений
 .photo-team {
   display: block;
@@ -601,40 +585,6 @@ img {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
-/* .social-links-webstudio > .item {
-  display: block;
-  width: 44px;
-  height: 44px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px 20px;
-  border-radius: 50%;
-  background-color: var(--social-links-ft-bg-color);
-}
-
-
-.social-links-webstudio > .item.instagram {
-  background-image: url(../images/footer-instagram.svg);
-}
-
-.social-links-webstudio > .item.twitter {
-  background-image: url(../images/footer-twitter.svg);
-}
-
-.social-links-webstudio > .item.facebook {
-  background-image: url(../images/footer-facebook.svg);
-}
-
-.social-links-webstudio > .item.linkedin {
-  background-image: url(../images/footer-linkedin.svg);
-}
-
-.social-links-webstudio > .item:hover,
-.social-links-webstudio > .item:focus {
-  cursor: pointer;
-  background-color: var(--accent-color);
-} */
 
 /* Стили для страницы ПОРТФОЛИО */
 
