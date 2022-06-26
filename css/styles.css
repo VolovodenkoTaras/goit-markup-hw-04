@@ -429,6 +429,8 @@ img {
 .social-links {
   display: flex;
   justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .social-links > .item:not(:last-child) {
