@@ -468,14 +468,13 @@ img {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
-  /* color: var(--primary-text-color); */
 }
 
-/* .clients > .item {
-   display: flex;
+.clients > .item {
+  display: flex;
   align-items: center;
-  justify-content: center; 
-} */
+  justify-content: center;
+}
 
 .clients > .item:not(:last-child) {
   margin-right: 30px;
