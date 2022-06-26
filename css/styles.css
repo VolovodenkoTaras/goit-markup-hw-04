@@ -215,7 +215,7 @@ img {
 
 /* Герой */
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--footer-bg-color);
@@ -471,13 +471,14 @@ img {
   /* color: var(--primary-text-color); */
 }
 
-.clients > .item {
-  display: flex;
+/* .clients > .item {
+   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+} */
 
-  border: 1px solid var(--clients-primary-color);
-  border-radius: 4px;
+.clients > .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients-link {
@@ -488,6 +489,9 @@ img {
   height: 92px;
 
   color: var(--clients-primary-color);
+
+  border: 1px solid var(--clients-primary-color);
+  border-radius: 4px;
 }
 
 .clients-link > .svg-clients {
@@ -495,15 +499,10 @@ img {
   height: 50px;
 }
 
-.clients > .item:hover,
-.clients > .item:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-}
-
 .clients-link:hover,
 .clients-link:focus {
   color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Подвал */
