@@ -579,8 +579,8 @@ img {
   background-color: var(--social-links-ft-bg-color);
 }
 
-.join-link:hover {
-  color: var(--primary-white-color);
+.join-link:hover,
+.join-link:focus {
   background-color: var(--accent-color);
 }
 
